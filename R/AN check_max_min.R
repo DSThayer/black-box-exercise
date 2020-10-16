@@ -7,7 +7,7 @@ find_max <- function(vector){
 
 #find min number of the vector
 find_min <- function(vector){
-  maxnum <- min(vector)
+  minnum <- min(vector)
   return(minnum)
   print(minnum)
 }
