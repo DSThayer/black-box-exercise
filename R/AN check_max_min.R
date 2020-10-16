@@ -2,14 +2,14 @@
 find_max <- function(vector){
      maxnum <- max(vector)
    return(maxnum)
-   print(maxnum, minnum)
+   print(maxnum)
 }
 
 #find min number of the vector
 find_min <- function(vector){
   maxnum <- min(vector)
-  return(maxnum)
-  print(maxnum, minnum)
+  return(minnum)
+  print(minnum)
 }
 
 #test vector:
