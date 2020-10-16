@@ -1,0 +1,20 @@
+#find max number of the vector
+find_max <- function(vector){
+     maxnum <- max(vector)
+   return(maxnum)
+   print(maxnum, minnum)
+}
+
+#find min number of the vector
+find_min <- function(vector){
+  maxnum <- min(vector)
+  return(maxnum)
+  print(maxnum, minnum)
+}
+
+#test vector:
+vector <- c(4,6,1,8,3)
+
+#testing
+find_min(vector)
+find_max(vector)
